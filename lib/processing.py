@@ -4,7 +4,7 @@ import multiprocessing
 from concurrent.futures import ThreadPoolExecutor
 
 
-def filter_items(items):
+def process_items(items):
     """
     :param items:
         Raw url item data from query

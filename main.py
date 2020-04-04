@@ -1,10 +1,12 @@
 from lib.querying import get_items
-from lib.processing import filter_items
+from lib.processing import process_items
 
 
 def main():
-    items = get_items('zegarek')
-    df = filter_items(items)
+    example_phrase = 'mydlo'
+
+    items = get_items(example_phrase)
+    df = process_items(items)
 
     print(df)
 
