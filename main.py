@@ -1,14 +1,8 @@
-from lib.querying import get_items
-from lib.processing import process_items
+from lib.mining import mine_all, load
 
 
 def main():
-    example_phrase = 'mydlo'
-
-    items = get_items(example_phrase)
-    df = process_items(items)
-
-    print(df)
+    mine_all()
 
 
 if __name__ == '__main__':

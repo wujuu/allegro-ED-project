@@ -1,0 +1,27 @@
+{
+  "querying": {
+    "host": "https://api.allegro.pl",
+    "item_limit_per_query": 100,
+    "token_url": "https://allegro.pl/auth/oauth/token?grant_type=client_credentials"
+  },
+  "mining": {
+    "item_per_category_threshold": 0,
+    "max_items_threshold": 6000,
+    "phrases": [
+      "płyn antybakteryjny",
+      "papier toaletowy",
+      "maseczka ochronna",
+      "zegarek",
+      "telewizor",
+      "monety",
+      "maty treningowe",
+      "hantle",
+      "drążek",
+      "guma oporowa",
+      "książka",
+      "film",
+      "gra",
+      "mydło"
+    ]
+  }
+}
